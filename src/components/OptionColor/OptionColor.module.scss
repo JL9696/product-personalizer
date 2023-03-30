@@ -1,0 +1,28 @@
+@use 'sass:math';
+@import '../../styles/settings.scss';
+@import '../ProductForm/ProductForm.module.scss';
+
+.choices {
+  button {
+
+    &.colorBlack {
+      background: #000;
+    }
+
+    &.colorRed {
+      background: #e74c3c;
+    }
+
+    &.colorWhite {
+      background: #fff;
+    }
+
+    &.colorBlue {
+      background: #3498db;
+    }
+
+    &.colorGreen {
+      background: #2ecc71;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@use 'sass:math';
+@import '../../styles/settings.scss';
+@import '../ProductForm/ProductForm.module.scss';
+
+.sizes .choices button:hover{
+  background: rgb(47, 53, 66);
+}
