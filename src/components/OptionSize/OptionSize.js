@@ -14,8 +14,8 @@ const OptionSize = ({ sizes, setCurrentSize, setCurrentPrice, currentSize }) => 
               setCurrentSize(size.name);
               setCurrentPrice(size.additionalPrice);
               }} 
-              className={clsx(size.name === currentSize && styles.active)}>  {/* Jeśli chcemy użyć dwóch lub więcej klas, to jako className podajemy po prostu wywołanie funkcji clsx, gdzie argumentami są nazwy klas, których chcemy użyć. */}
-                {size.name}                                                                                                                   {/* W tym wypadku robimy warunek który, jeśli rozmiar jest równy wybranemu elementowi to nadaj klase active */}
+              className={clsx(size.name === currentSize && styles.active)}>  
+                {size.name}
             </button>
           </li>
           ))}
